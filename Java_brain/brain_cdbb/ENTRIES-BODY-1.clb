@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="EditLive! 9.1.0.119" />
+<meta name="generator" content="TheBrain 8.0.2.1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+body {
+font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
+}
+p {
+margin-top: 0pt;  margin-bottom: 0pt;
+}
+</style>
+</head>
+<body>
+<p>在堆中产生对象和数组后，可以在栈中定义一个特殊的变量，让栈中这个变量取值等于对象或数组在堆中的首地址，这个变量就变成了堆中对象或数组的引用变量，以后就可以在程序中使用引用变量范文堆中的数组或者对象，引用变量就相当于是数组或者对象起的一个名称。引用变量是普通的变量，定义时在栈中分配，引用变量在程序中运行到其作用域之外时被释放，而数组和对象本身在堆中分配，即使程序运行到使用new产生数组或者对象的语句所在的代码块之外时，数组和对象所占的内存空间也不会被释放，数组和对象在没有引用变量指向它的时候才变为垃圾，不能被使用，但仍然占据内存空间不放，在随后的某个时间被垃圾回收器收走释放掉。</p>
+</body>
+</html>
